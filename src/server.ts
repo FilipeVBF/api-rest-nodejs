@@ -8,5 +8,4 @@ app
   })
   .then(() => {
     console.log("HTTP Server Running! Port: ", env.PORT);
-    console.log("ENV HOST:", env.HOST);
   });
